@@ -1,6 +1,17 @@
+body{
+    margin: 100px;
+}
+
 .background {
     background-image: url("img/bg.jpg");
-    width: 759px;
-    height: 1000px;
-    margin: 20px 20px;
+    width: 600px;
+    height: 700px;
+}
+.logo {
+
+    margin: -80px 55px;
+}
+
+.right-block {
+    text-align: right;
 }
