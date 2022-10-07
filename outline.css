@@ -1,17 +1,56 @@
+@font-face {
+    font-family: barlow-regular;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/barlow-regular.otf");
+}
+
 body{
     margin: 100px;
+    background-color: #EFF6FF;
+    font-family: barlow-regular;
 }
+
 
 .background {
     background-image: url("img/bg.jpg");
     width: 600px;
     height: 700px;
+    float: left;
 }
 .logo {
-
     margin: -80px 55px;
 }
 
 .right-block {
-    text-align: right;
+    float: left;
+    padding: 40px;
+    color: #2A4A5C;
+    background-color: white;
+    height: 620px;
+
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 2;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
