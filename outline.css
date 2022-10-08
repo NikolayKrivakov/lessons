@@ -13,47 +13,55 @@
 body{
     margin: 100px;
     background-color: #EFF6FF;
+    font-family: barlow-regular;
 
 }
 
-.notice{
-    color: #AFAFAF;
+.notice_header{
+    color: #737171;
+    display: block;
+    position: relative;
+    bottom: 24px;
+
 }
 
-.button{
-    font-size: 10px;
-}
-
-.text{
+.Facebook_button{
     display: inline-block;
-}
-
-.button img {
-    margin-top: 7px;
-}
-
-
-
-.facebookButton{
     background-color: #255A9B;
-    display: inline-block;
-    padding: 8px;
     color: white;
-    height: 30px;
-    width: 200px;
-    text-align: left;
+    border: none;
+    height: 40px;
+    width: 250px;
+    text-align: center;
 }
 
-.linkedinButton{
-    background-color: #0076B6;
+.Linkedin_button{
     display: inline-block;
+    background-color: #0076B6;
     color: white;
-    padding: 8px;
-    margin: 30px;
-    height: 30px;
-    width: 200px;
-    text-align: left;
+    border: none;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
 }
+
+.buttons img{
+    float: left;
+}
+
+.line{
+    display: flex;
+}
+
+.line:before,
+.line:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: 10;
+}
+
 
 .background {
     background-image: url("img/bg.jpg");
