@@ -1,16 +1,59 @@
 @font-face {
     font-family: barlow-regular;
-    font-style: normal;
     font-weight: 400;
-    src: url("fonts/barlow-regular.otf");
+    src: url("fonts/barlow-regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: barlow-bold;
+    font-weight: 400;
+    src: url("fonts/barlow-bold.otf") format('opentype');
 }
 
 body{
     margin: 100px;
     background-color: #EFF6FF;
-    font-family: barlow-regular;
+
 }
 
+.notice{
+    color: #AFAFAF;
+}
+
+.button{
+    font-size: 10px;
+}
+
+.text{
+    display: inline-block;
+}
+
+.button img {
+    margin-top: 7px;
+}
+
+
+
+.facebookButton{
+    background-color: #255A9B;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    height: 30px;
+    width: 200px;
+    text-align: left;
+}
+
+.linkedinButton{
+    background-color: #0076B6;
+    display: inline-block;
+    color: white;
+    padding: 8px;
+    margin: 30px;
+    height: 30px;
+    width: 200px;
+    text-align: left;
+}
 
 .background {
     background-image: url("img/bg.jpg");
