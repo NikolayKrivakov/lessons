@@ -17,11 +17,20 @@ body{
 
 }
 
-.notice_header{
+main{
+    margin-top: -32px;
+}
+
+.mainWindow{
+    margin: auto 72px;
+}
+
+.noticeHeader{
     color: #737171;
     display: block;
     position: relative;
-    bottom: 24px;
+    bottom: 16px;
+    font-size: 20px;
 
 }
 
@@ -50,6 +59,9 @@ body{
     float: left;
 }
 
+.radioButtonGroup input:checked{
+    background: #fff;
+}
 
 .line {
     display: flex;
@@ -87,6 +99,10 @@ body{
     margin: -80px 55px;
 }
 
+.textBlocks{
+    margin-top: 25px;
+}
+
 .right-block {
     float: left;
     padding: 40px;
@@ -96,24 +112,72 @@ body{
 
 }
 
-.textBlocks{
-    margin: 10px;
-}
 
-.fullInput{
+
+.fullInputLeft{
     display: inline-block;
-    border: 2px solid #737171;
+    border: 2px solid #c8c8c8;
     padding: 3px;
     width: 238px;
     height: 38px;
+    border-left-color: #3698FB;
 }
 
-.fullInput input{
+.fullInputRight{
+    display: inline-block;
+    border: 2px solid #c8c8c8;
+    padding: 3px;
+    width: 238px;
+    height: 38px;
+    margin-left: 20px;
+}
+
+.textBlocks input{
     border: none;
     outline: none;
     display: block;
 }
 
-.centerBlock{
-    margin: 5px;
+.textBlocks label{
+    font-size: 15px;
+    color: #737171;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+.secondHeader .noticeHeader{
+    font-size: 15px;
+}
+
+.radioButtonGroup{
+    margin-top: 25px;
+}
+
+.infoPlace{
+    margin-top: 25px;
+    display: inline-block;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 15px 1px #cbcbcb;
+    color: #9f9e9e;
+}
+.terms{
+    margin-top: 25px;
+    font-size: 13px;
+    color: #9f9e9e;
+}
+
+.createAccount{
+    margin-top: 25px;
+    width: 238px;
+    height: 38px;
+    background-color: #3698FB;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.createAccount p{
+    padding: 8px 0px;
 }

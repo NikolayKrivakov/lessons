@@ -6,14 +6,15 @@
     <title>Title3</title>
 </head>
 <body>
-
+<div class="mainWindow">
     <div class="background">
         <img class="logo" src="img/logo.svg" width="100" height="300" alt="Тест">
     </div>
     <div class="right-block">
+        <main>
         <div>
         <h1 class="heading">Get iintoo it today</h1>
-        <p class="notice_header">There is no charge or obligation upon registration.</p>
+        <p class="noticeHeader">There is no charge or obligation upon registration.</p>
         </div>
         <div class="buttons">
             <button class="Facebook_button">
@@ -31,47 +32,54 @@
             </p>
         </div>
         <div class="textBlocks">
-            <div class="fullInput">
+            <div class="fullInputLeft">
                 <label for="email">Email</label>
                 <input type="text" id="email" name="email">
             </div>
-            <div class="fullInput">
+            <div class="fullInputRight">
                 <label for="phone">Phone</label>
                 <input type="text" id="phone" name="phone">
             </div>
 
         </div>
+        <div class="secondHeader">
         <h2>What type of investor are you?</h2>
-        <p class="notice">Select the type of investor you are below.</p>
+        <p class="noticeHeader">Select the type of investor you are below.</p>
+        </div>
         <form>
-            <p>Please select your preferred contact method:</p>
-            <div>
+            <div class="radioButtonGroup">
                 <input type="radio" id="investorChoice1"
                        name="investor" value="Individual">
                 <label for="investorChoice1">Individual</label>
-                <img src="img/info.png" alt="" height="10" width="10">
+                <img src="img/info.png" alt="" height="10" width="10"   style="margin-right: 30px">
                 <input type="radio" id="investorChoice2"
                        name="investor" value="Business">
                 <label for="investorChoice2">Business</label>
-                <img src="img/info.png" alt="" height="10" width="10">
+                <img src="img/info.png" alt="" height="10" width="10"  style="margin-right: 30px">
                 <input type="radio" id="investorChoice3"
                        name="investor" value="IRA">
                 <label for="investorChoice3">IRA</label>
-                <img src="img/info.png" alt="" height="10" width="10">
+                <img src="img/info.png" alt="" height="10" width="10"  style="margin-right: 30px">
                 <input type="radio" id="investorChoice4"
                        name="investor" value="Trust">
                 <label for="investorChoice4">Trust</label>
                 <img src="img/info.png" alt="" height="10" width="10">
             </div>
         </form>
-        <div>
+        <div class="infoPlace">
             I'am a natural person investing on my<br> own behalf as a sole owner, joint tenant,<br> or tenant in common.
         </div>
-        <div>
+        <div class="terms">
             <input type="checkbox" id="terms" name="terms">
             <label for="terms">i agree to the terms and receiving notifications form iintoo <a href="#">View full terms</a></label>
         </div>
-        <div>Create account</div>
+        <div class="createAccount">
+            <p>
+            Create account
+            </p>
+        </div>
+        </main>
+    </div>
     </div>
 </body>
 </html>
